@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-banner",
+      "settings": {
+        "heading": "Welcome to Our Store",
+        "subheading": "Discover quality products curated just for you",
+        "button_label": "Shop Now",
+        "button_link": "shopify://collections/all",
+        "image": ""
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "collection": "",
+        "products_to_show": 8,
+        "columns_desktop": 4
+      }
+    },
+    "about": {
+      "type": "rich-text-banner",
+      "settings": {
+        "heading": "Our Story",
+        "text": "<p>Tell your customers about your brand here.</p>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "featured_collection",
+    "about"
+  ]
+}
