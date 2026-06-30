@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Store</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; color:#1a1a1a; }
+
+  header { display:flex; justify-content:space-between; align-items:center; padding:20px 40px; border-bottom:1px solid #eee; }
+  header .logo { font-size:22px; font-weight:bold; letter-spacing:1px; }
+  header nav a { margin:0 15px; text-decoration:none; color:#1a1a1a; font-size:14px; }
+  header .icons a { margin-left:15px; text-decoration:none; color:#1a1a1a; }
+
+  .hero { background:#f5f5f3; text-align:center; padding:100px 20px; }
+  .hero h1 { font-size:42px; margin-bottom:15px; }
+  .hero p { font-size:16px; color:#555; margin-bottom:25px; }
+  .hero .btn { display:inline-block; background:#1a1a1a; color:#fff; padding:14px 32px; text-decoration:none; font-size:14px; letter-spacing:1px; }
+
+  .collection { padding:60px 40px; text-align:center; }
+  .collection h2 { font-size:28px; margin-bottom:40px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:30px; }
+  .product { text-align:left; }
+  .product img { width:100%; aspect-ratio:1/1; object-fit:cover; background:#eee; }
+  .product h3 { font-size:15px; margin-top:12px; }
+  .product p { font-size:14px; color:#666; margin-top:4px; }
+
+  .banner { background:#1a1a1a; color:#fff; text-align:center; padding:60px 20px; margin-top:40px; }
+  .banner h2 { font-size:26px; margin-bottom:15px; }
+  .banner a { color:#fff; text-decoration:underline; font-size:14px; }
+
+  footer { background:#f5f5f3; padding:50px 40px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px; margin-top:40px; }
+  footer div h4 { font-size:14px; margin-bottom:12px; }
+  footer div p, footer div a { display:block; font-size:13px; color:#555; text-decoration:none; margin-bottom:6px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MY STORE</div>
+  <nav>
+    <a href="#">Shop</a>
+    <a href="#">Collections</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="icons">
+    <a href="#">🔍</a>
+    <a href="#">👤</a>
+    <a href="#">🛒</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>New Season Arrivals</h1>
+  <p>Discover the latest collection, crafted for everyday comfort.</p>
+  <a href="#" class="btn">SHOP NOW</a>
+</section>
+
+<section class="collection">
+  <h2>Featured Products</h2>
+  <div class="grid">
+    <div class="product">
+      <img src="https://via.placeholder.com/400" alt="Product 1">
+      <h3>Product Name</h3>
+      <p>$29.00</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400" alt="Product 2">
+      <h3>Product Name</h3>
+      <p>$39.00</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400" alt="Product 3">
+      <h3>Product Name</h3>
+      <p>$25.00</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/400" alt="Product 4">
+      <h3>Product Name</h3>
+      <p>$45.00</p>
+    </div>
+  </div>
+</section>
+
+<section class="banner">
+  <h2>Free Shipping on Orders Over $50</h2>
+  <a href="#">Learn more →</a>
+</section>
+
+<footer>
+  <div>
+    <h4>About Us</h4>
+    <p>We create quality products for everyday living.</p>
+  </div>
+  <div>
+    <h4>Quick Links</h4>
+    <a href="#">Shipping & Returns</a>
+    <a href="#">FAQ</a>
+    <a href="#">Track Order</a>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <p>support@mystore.com</p>
+    <p>+91 98765 43210</p>
+  </div>
+  <div>
+    <h4>Newsletter</h4>
+    <p>Subscribe for updates and offers.</p>
+  </div>
+</footer>
+
+</body>
+</html>
